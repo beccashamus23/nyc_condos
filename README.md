@@ -1,6 +1,7 @@
 # nyc_condos_draft
 Analysis of condos and their prices in New York City over time.
-#linear_regression_model_analysis_nyc_conods.ipynb
+
+# linear_regression_model_analysis_nyc_conods.ipynb
 The Random Forest model yielded cross-validation scores of [0.415, 0.405, 0.44, 0.3919598, 0.4120603], indicating consistent performance across different folds.
 
 To further explore the relationship between features and income, the Ordinary Least Squares (OLS) regression model an R-squared value of 0.202, suggesting that approximately 20.2% of the variability in income is explained by the model. The adjusted R-squared, which accounts for the number of predictors in the model, was slightly lower at 0.134. This implies that the model's explanatory power diminishes when adjusted for the number of predictors.
