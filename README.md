@@ -2,5 +2,19 @@
 Ethan Ewing, Rebecca Shamus, Ani Bhaskara
 
 Analysis of condos and their prices in New York City over time.
+# pca_and_kmeans_nyc_condos.ipynb
+I conducted Principal Component Analysis (PCA) on eight features and performed KMeans clustering to classify the data into three distinct groups.
 
-The where_when notebook explores where, when, and what types of condominiums were built. First we took a look at when the condos were built. We analyzed graphs that displayed the trends of when the condos were built and used historical contexts to try explain the trends we saw. Then, we used the GeoPy library to fetch the longitude and latitude for the address provided for each condo. We used these coordinates and the folium library to make a map that displayed where different condos were being built. We also wanted to see if there was a dependency between the classification of the condominiums and the borough that they resided in. We used a Chi-Square Test to test the hypothesis that the condos' classification was independent of its borough.
+Principal Component Analysis (PCA):
+
+PC1: Captures variations in Gross SqFt, Estimated Gross Income, Estimated Expense, Net Operating Income, Full Market Value, and Total Units.
+PC2: This component mainly reflects variations in Year Built and Report Year.
+PC3: Similar to PC2, this component also highlights variations in Year Built and Report Year.
+KMeans Clustering:
+
+I utilized KMeans clustering to segment the data into three clusters based on key features such as Total Units, Year Built, Gross SqFt, Estimated Gross Income, Estimated Expense, Net Operating Income, Full Market Value, and Report Year. The clusters are characterized as follows:
+
+Cluster 0: Represents condos with the lowest values in terms of size, expenses, and other financial metrics.
+Cluster 1: Represents condos with middle-range values for size, expenses, and financial metrics.
+Cluster 2: Represents condos with the highest values, expenses, and size.
+This clustering helps in predicting and understanding the distribution of these attributes across different types of condos in NYC.
