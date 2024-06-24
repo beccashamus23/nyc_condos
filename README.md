@@ -1,6 +1,4 @@
 # nyc_condos_draft
-Ethan Ewing, Rebecca Shamus, Ani Bhaskara
-
 Analysis of condos and their prices in New York City over time.
 # pca_and_kmeans_nyc_condos.ipynb
 I conducted Principal Component Analysis (PCA) on eight features and performed KMeans clustering to classify the data into three distinct groups.
